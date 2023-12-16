@@ -15,10 +15,10 @@
     </RouterLink>
 
     <RouterLink
-      to="/about"
+      to="/margin-padding"
       class="hover:bg-indigo-100 hover:text-indigo-600 p-4 transition-colors duration-300"
     >
-      About
+      Margin Padding
     </RouterLink>
   </nav>
 </template>

@@ -15,9 +15,9 @@ const router = createRouter({
       component: () => import('../views/WidthHeightView.vue')
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
+      path: '/margin-padding',
+      name: 'Margin-padding',
+      component: () => import('../views/MarginPaddingView.vue')
     }
   ]
 })
