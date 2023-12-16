@@ -8,6 +8,13 @@
     </RouterLink>
 
     <RouterLink
+      to="/width-height"
+      class="hover:bg-indigo-100 hover:text-indigo-600 p-4 transition-colors duration-300"
+    >
+      Width Height
+    </RouterLink>
+
+    <RouterLink
       to="/about"
       class="hover:bg-indigo-100 hover:text-indigo-600 p-4 transition-colors duration-300"
     >
