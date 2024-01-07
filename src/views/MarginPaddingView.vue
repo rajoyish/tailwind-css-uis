@@ -51,6 +51,7 @@
       <div class="flex w-72 flex-col rounded-b-lg rounded-t-xl bg-gray-50 shadow-lg">
         <h2 class="relative rounded-t-xl bg-indigo-500 p-4 font-semibold text-gray-50">
           3 Must-have PHP Skills
+
           <button
             class="absolute bottom-0 right-4 -mb-6 size-12 cursor-pointer rounded-full bg-emerald-400 text-gray-50"
           >
@@ -58,10 +59,15 @@
           </button>
         </h2>
 
-        <ul class="list-rocket my-4 pl-8">
-          <li class="mb-2 pl-2">Understanding of OOP</li>
-          <li class="mb-2 pl-2">Knowledge of PHP Frameworks</li>
-          <li class="mb-2 pl-2">Familiarity with MySQL</li>
+        <ul
+          class="list-rocket my-4 space-y-2 pl-8 *:cursor-pointer *:pl-2 *:transition-transform hover:*:-translate-y-0.5"
+        >
+          <!-- <li class="cursor-pointer pl-2 transition-transform hover:-translate-y-0.5">
+            Understanding of OOP
+          </li> -->
+          <li>Understanding of OOP</li>
+          <li>Knowledge of PHP Frameworks</li>
+          <li>Familiarity with MySQL</li>
         </ul>
       </div>
     </section>
@@ -70,30 +76,34 @@
     <!-- Pill Case Navbar  -->
     <!-- =================================== -->
     <section class="grid min-h-screen place-items-center bg-indigo-500 p-16">
-      <nav
+      <header
         class="flex h-16 w-[26rem] items-center justify-between rounded-full bg-gray-50 px-2 text-neutral-950 shadow-lg"
       >
         <button class="flex size-16 items-center justify-center text-xl">
           <i class="fa-solid fa-bars"></i>
         </button>
+
         <nav class="flex gap-4 font-semibold">
-          <button
+          <a
+            href="#"
             class="border-r border-indigo-500 pr-4 transition-colors last:border-none hover:border-emerald-400 hover:text-emerald-400"
           >
             Dashboard
-          </button>
-          <button
+          </a>
+          <a
+            href="#"
             class="border-r border-indigo-500 pr-4 transition-colors last:border-none hover:border-emerald-400 hover:text-emerald-400"
           >
             Profile
-          </button>
-          <button
+          </a>
+          <a
+            href="#"
             class="border-r border-indigo-500 pr-4 transition-colors last:border-none hover:border-emerald-400 hover:text-emerald-400"
           >
             Messages
-          </button>
+          </a>
         </nav>
-      </nav>
+      </header>
     </section>
 
     <!-- =================================== -->
