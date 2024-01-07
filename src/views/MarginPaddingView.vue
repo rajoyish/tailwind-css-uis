@@ -18,7 +18,7 @@
     <section class="grid min-h-screen place-items-center bg-gray-50 p-16">
       <div class="flex max-w-xs items-center gap-3 rounded-md bg-emerald-400 p-4 text-neutral-950">
         <img
-          class="h-12 w-12 rounded-full border-2 border-blue-300"
+          class="size-12 rounded-full border-2 border-blue-300"
           src="https://i.postimg.cc/PJ2vsgBS/tedlasso.webp"
         />
         <div>
