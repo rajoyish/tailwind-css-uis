@@ -5,7 +5,7 @@
     <!-- =================================== -->
     <section class="grid min-h-screen place-items-center bg-neutral-950 p-16">
       <div class="flex w-64 flex-col rounded-md bg-gray-50 text-neutral-950 shadow-md">
-        <span class="m-4 grid h-7 w-7 place-items-center rounded-full bg-emerald-400 text-white"
+        <span class="m-4 grid size-7 place-items-center rounded-full bg-emerald-400 text-white"
           ><i class="fa-solid fa-mug-hot"></i
         ></span>
         <p class="m-4 mt-0">Code fueled, syntax ruled!</p>
@@ -33,12 +33,12 @@
     <!-- =================================== -->
     <section class="grid min-h-screen place-items-center bg-emerald-400 p-16">
       <div class="flex max-w-xs items-center rounded-lg bg-white p-5 text-neutral-950 shadow-lg">
-        <img class="mr-4 h-12 w-12 rounded-full" src="https://i.postimg.cc/MGPqXNXb/roy.webp" />
+        <img class="mr-4 size-12 rounded-full" src="https://i.postimg.cc/MGPqXNXb/roy.webp" />
         <div>
           <h2 class="font-semibold">Brett Goldstein</h2>
           <h3 class="text-xs text-indigo-500">July 17, 1980 · Roy</h3>
         </div>
-        <span class="ml-6 mr-2 grid h-8 w-8 cursor-pointer place-items-center text-base"
+        <span class="ml-6 mr-2 grid size-8 cursor-pointer place-items-center text-base"
           ><i class="fa-solid fa-ellipsis-vertical"></i
         ></span>
       </div>
@@ -52,7 +52,7 @@
         <h2 class="relative rounded-t-xl bg-indigo-500 p-4 font-semibold text-gray-50">
           3 Must-have PHP Skills
           <button
-            class="absolute bottom-0 right-4 -mb-6 h-12 w-12 cursor-pointer rounded-full bg-emerald-400 text-gray-50"
+            class="absolute bottom-0 right-4 -mb-6 size-12 cursor-pointer rounded-full bg-emerald-400 text-gray-50"
           >
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
@@ -73,7 +73,7 @@
       <nav
         class="flex h-16 w-[26rem] items-center justify-between rounded-full bg-gray-50 px-2 text-neutral-950 shadow-lg"
       >
-        <button class="flex h-16 w-16 items-center justify-center text-xl">
+        <button class="flex size-16 items-center justify-center text-xl">
           <i class="fa-solid fa-bars"></i>
         </button>
         <nav class="flex gap-4 font-semibold">
@@ -119,10 +119,7 @@
     <!-- =================================== -->
     <section class="grid min-h-screen place-items-center bg-gray-50 p-16">
       <span class="flex rounded-full bg-gradient-to-t from-neutral-950 to-emerald-400 p-[0.075rem]">
-        <img
-          class="h-28 w-28 rounded-full border-2 border-gray-50"
-          src="https://i.pravatar.cc/300"
-        />
+        <img class="size-28 rounded-full border-2 border-gray-50" src="https://i.pravatar.cc/300" />
       </span>
     </section>
 
