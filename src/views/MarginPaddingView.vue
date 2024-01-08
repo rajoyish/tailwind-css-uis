@@ -139,19 +139,19 @@
     <section class="grid min-h-screen place-items-center bg-emerald-400 p-16">
       <div class="flex w-full flex-wrap text-6xl">
         <div class="relative w-1/2 bg-neutral-950 pt-[50%]">
-          <div class="absolute left-0 top-0 z-10 grid h-full w-full place-items-center p-4">😂</div>
+          <div class="absolute left-0 top-0 z-10 grid size-full place-items-center p-4">😂</div>
         </div>
 
         <div class="relative w-1/2 bg-gray-50 pt-[50%]">
-          <div class="absolute left-0 top-0 z-10 grid h-full w-full place-items-center p-4">👌</div>
+          <div class="absolute left-0 top-0 z-10 grid size-full place-items-center p-4">👌</div>
         </div>
 
         <div class="relative w-1/2 bg-blue-300 pt-[50%]">
-          <div class="absolute left-0 top-0 z-10 grid h-full w-full place-items-center p-4">😴</div>
+          <div class="absolute left-0 top-0 z-10 grid size-full place-items-center p-4">😴</div>
         </div>
 
         <div class="relative w-1/2 bg-indigo-500 pt-[50%]">
-          <div class="absolute left-0 top-0 z-10 grid h-full w-full place-items-center p-4">🙄</div>
+          <div class="absolute left-0 top-0 z-10 grid size-full place-items-center p-4">🙄</div>
         </div>
       </div>
     </section>
