@@ -60,7 +60,7 @@
         </h2>
 
         <ul
-          class="list-rocket my-4 space-y-2 pl-8 *:cursor-pointer *:pl-2 *:transition-transform hover:*:-translate-y-0.5"
+          class="list-rocket my-4 space-y-2 pl-8 *:cursor-pointer *:pl-2 *:transition-transform *:hover:-translate-y-0.5"
         >
           <!-- <li class="cursor-pointer pl-2 transition-transform hover:-translate-y-0.5">
             Understanding of OOP
@@ -113,7 +113,7 @@
     <section class="grid min-h-screen place-items-center bg-neutral-950 p-16">
       <div class="relative">
         <input
-          class="peer/changeIconColor h-16 w-56 rounded-md border-2 border-neutral-500 bg-neutral-950 pl-14 pr-4 text-gray-50 placeholder:text-neutral-500 focus:border-none focus:outline-none focus:ring focus:ring-emerald-400"
+          class="peer/changeIconColor h-16 w-56 rounded-md border-2 border-neutral-500 bg-neutral-950 pl-14 pr-4 text-gray-50 placeholder:text-neutral-500 focus:border-none focus:outline-hidden focus:ring-3 focus:ring-emerald-400"
           placeholder="Search..."
         />
         <span
@@ -128,7 +128,7 @@
     <!-- Avatar with Gradient Border  -->
     <!-- =================================== -->
     <section class="grid min-h-screen place-items-center bg-gray-50 p-16">
-      <span class="flex rounded-full bg-gradient-to-t from-neutral-950 to-emerald-400 p-[0.075rem]">
+      <span class="flex rounded-full bg-linear-to-t from-neutral-950 to-emerald-400 p-[0.075rem]">
         <img class="size-28 rounded-full border-2 border-gray-50" src="https://i.pravatar.cc/300" />
       </span>
     </section>

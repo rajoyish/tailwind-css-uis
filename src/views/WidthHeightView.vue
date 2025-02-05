@@ -7,13 +7,13 @@
       <div class="flex gap-4">
         <!-- Input: Designation [h-12] & min-w-[12rem] -->
         <input
-          class="h-12 min-w-[12rem] rounded-lg border-emerald-500 indent-4 text-emerald-900 shadow-lg focus:outline-none focus:ring focus:ring-emerald-600"
+          class="h-12 min-w-[12rem] rounded-lg border-emerald-500 indent-4 text-emerald-900 shadow-lg focus:outline-hidden focus:ring-3 focus:ring-emerald-600"
           type="text"
           placeholder="Designation"
         />
         <!-- Button: Submit [h-12] -->
         <button
-          class="h-12 min-w-[8rem] rounded-lg border-2 border-emerald-600 bg-emerald-500 text-emerald-50 shadow-lg hover:bg-emerald-600 focus:outline-none focus:ring focus:ring-emerald-600"
+          class="h-12 min-w-[8rem] rounded-lg border-2 border-emerald-600 bg-emerald-500 text-emerald-50 shadow-lg hover:bg-emerald-600 focus:outline-hidden focus:ring-3 focus:ring-emerald-600"
         >
           Submit
         </button>
@@ -79,19 +79,19 @@
         <form class="grid gap-3">
           <!-- Username Input -->
           <input
-            class="h-10 rounded-sm bg-emerald-100/50 px-2 text-emerald-950 placeholder:text-emerald-600/80 focus:outline-none focus:ring focus:ring-emerald-400"
+            class="h-10 rounded-xs bg-emerald-100/50 px-2 text-emerald-950 placeholder:text-emerald-600/80 focus:outline-hidden focus:ring-3 focus:ring-emerald-400"
             type="text"
             placeholder="Enter your username"
           />
           <!-- Password Input -->
           <input
-            class="h-10 rounded-sm bg-emerald-100/50 px-2 text-emerald-950 placeholder:text-emerald-600/80 focus:outline-none focus:ring focus:ring-emerald-400"
+            class="h-10 rounded-xs bg-emerald-100/50 px-2 text-emerald-950 placeholder:text-emerald-600/80 focus:outline-hidden focus:ring-3 focus:ring-emerald-400"
             type="password"
             placeholder="Enter your password"
           />
           <!-- Sign In Button -->
           <button
-            class="flex h-10 items-center justify-between rounded-sm bg-emerald-700 px-2 text-emerald-100 transition-colors duration-300 hover:bg-emerald-800 focus:outline-none focus:ring focus:ring-emerald-400"
+            class="flex h-10 items-center justify-between rounded-xs bg-emerald-700 px-2 text-emerald-100 transition-colors duration-300 hover:bg-emerald-800 focus:outline-hidden focus:ring-3 focus:ring-emerald-400"
             type="button"
           >
             <span>Sign In</span>
